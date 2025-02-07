@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Mi sitio CV</title>
+    <link href="css/css-gg.css" rel="stylesheet"><!-- Todos los estilos -->
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/sites.js"></script>
+    <style>
+        body {
+            background-color: #44566c; /* Fondo gris */
+            position: relative;
+            overflow-x: hidden;
+        }
+        .triangles-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: auto;
+        }
+        .triangles-bottom {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="resources/triangles-top.svg" alt="Triangles Top" class="triangles-top">
+    <img src="resources/triangles-bottom.svg" alt="Triangles Bottom" class="triangles-bottom">
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/Foto1.jpg" id="photo-profile" class="my-photo">
+                <h1 class="title">Hugo Gonzalez Dominguez</h1>
+                <div class="badge-profile">Programador</div>
+                <div class="social">
+                    <a href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank"><i class="gg-facebook"></i></a><!-- Librería de terceros -->
+                    <a href="https://x.com/?lang=es&mx=2" target="_blank"><i class="gg-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="gg-youtube"></i></a>
+                    <a href="https://pokemongolive.com/?hl=es" target="_blank"><i class="gg-pokemon"></i></a>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;12 de Enero del 2025</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;<a href="mailto:khugogonzalez20@gmail.com?body=En%20que%20te%20puedo%20ayudar?">&nbsp;khugogonzalez20@gmail.com"</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;+52 2221336082</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;<a href="skype:SEDC">&nbsp;Skype: SEDC</a></li>
+                    </ul>
+                </div>
+                <a class="btn" href="media/cv.pdf">Descargar CV</a>
+            </div>
+        </aside>
+    </div>
+ <div class="main-content">
+    <section class="resume">
+        <header>
+            <div class="menu-circle">
+                <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+            </div>
+            <div class="inner-menu js-menu">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portafolio.html">Portafolio</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <h2 class="title botdered">Acerca de mi</h2>
+        <p>Descripcion hacerca de mi .</p>
+        <div class="services-content">
+            
+            <h2>Mis habilidades</h2>
+            <div class="my-services">
+                <div>
+                    <span class="gg-pencil"></span>
+                    <div>
+                        <h3>Desarrollo de paginas web</h3>
+                        <p>Creacion paginas web profecionales.</p>
+                    </div>
+                </div>
+                <div>
+                    <span class="gg-pencil"></span>
+                    <div>
+                        <h3>Desarrollo de aplicaciones web y movil</h3>
+                        <p>Creacion de aplicaciones moviles y web con lenguajes de programacion (java, C#, Paython)</p>
+                    </div>
+                </div>
+                <div>
+                    <span class="gg-pencil"></span>
+                    <div>
+                        <h3>Diseño</h3>
+                        <p>Creacion de logos y diseños de aplicaciones y paginas</p>
+                    </div>
+                </div>
+                <div>
+                    <span class="gg-pencil"></span>
+                    <div>
+                        <h3>Base de datos</h3>
+                        <p>Bases de datos relacionales y no relacionales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="timeline-content">
+            <h2>Resumen</h2>
+            <div>
+                <div>
+                    <h2><i class="fa fa-user-graduate"></i> Educación</h2>
+                    <div class="timeline">
+                        <!-- Item -->
+                        <article class="timeline_item">
+                            <h5 class="title title-h5 timeline__title">Univercidad Tecnologica de puebla</h5>
+                            <span class="timeline__period">2022 - 2024</span>
+                            <p class="timeline__description">
+                                Contando con un titulo como Tecnico Superior Univercitario.
+                            </p>
+                        </article>
+
+
+                        <!-- Item -->
+                        <article class="timeline_item">
+                            <h5 class="title title-h5 timeline__title">Curso 1</h5>
+                            <span class="timeline__period">2024</span>
+                            <p class="timeline__description">
+                                Diploma de conocimiento en base de datos no relacionales.
+                            </p>
+                        </article>
+
+
+                        <!-- Item -->
+                        <article class="timeline_item">
+                            <h5 class="title title-h5 timeline__title">Curso 2</h5>
+                            <span class="timeline__period">2023</span>
+                            <p class="timeline__description">
+                                Reconocimiento de segundo lugar en feria de proyectos en desarrollo de aplicaciones moviles.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h2><i class="fa fa-user-graduate"></i> Mi experiencia</h2>
+                    <div class="timeline">
+                        <!-- Item -->
+                        <article class="timeline_item">
+                            <h5 class="title title-h5 timeline__title"> Empresa 1</h5>
+                            <span class="timeline__period">2023- 2024</span>
+                            <p class="timeline__description">
+                                Desarrollador web y movil de la empresa STIntegrales.
+                            </p>
+                        </article>
+
+
+                        <!-- Item -->
+                        <article class="timeline_item">
+                            <h5 class="title title-h5 timeline__title">Proyecto 1</h5>
+                            <span class="timeline__period">2024</span>
+                            <p class="timeline__description">
+                                Fundamento de la pagina web de SIIUTP en reporte de roprobados.
+                            </p>
+                        </article>
+
+
+                        <!-- Item -->
+                        <article class="timeline_item">
+                            <h5 class="title title-h5 timeline__title">Proyecto 2</h5>
+                            <span class="timeline__period">2023</span>
+                            <p class="timeline__description">
+                                Desarrollo de pagina web de la empresa STIntegrales.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ </div>
+ <footer>Hugo Gnzalez Dominguez</footer>
+ <div id="copyrigth" style="display: none;">2024 Hugo Gonzalez Dominguez</div>
+</body>
+</html>

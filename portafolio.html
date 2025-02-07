@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Mi sitio CV</title>
+    <link href="css/css-gg.css" rel="stylesheet"><!-- Todos los estilos -->
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/sites.js"></script>
+    <style>
+        body {
+            background-color: #44566c; /* Fondo gris */
+            position: relative;
+            overflow-x: hidden;
+        }
+        .triangles-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: auto;
+        }
+        .triangles-bottom {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="resources/triangles-top.svg" alt="Triangles Top" class="triangles-top">
+    <img src="resources/triangles-bottom.svg" alt="Triangles Bottom" class="triangles-bottom">
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/Foto1.jpg" id="photo-profile" class="my-photo">
+                <h1 class="title">Hugo Gonzalez Dominguez</h1>
+                <div class="badge-profile">Programador</div>
+                <div class="social">
+                    <a href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank"><i class="gg-facebook"></i></a><!-- Librería de terceros -->
+                    <a href="https://x.com/?lang=es&mx=2" target="_blank"><i class="gg-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="gg-youtube"></i></a>
+                    <a href="https://pokemongolive.com/?hl=es" target="_blank"><i class="gg-pokemon"></i></a>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;12 de Enero del 2025</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;<a href="mailto:khugogonzalez20@gmail.com?body=En%20que%20te%20puedo%20ayudar?">&nbsp;khugogonzalez20@gmail.com"</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;+52 2221336082</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;<a href="skype:SEDC">&nbsp;Skype: SEDC</a></li>
+                    </ul>
+                </div>
+                <a class="btn" href="media/cv.pdf">Descargar CV</a>
+            </div>
+        </aside>
+        <section class="resume">
+            <h2 class="title botdered">Portafolio</h2>
+            <div class="portafolio">
+                <img src="" onclick="showImage(this)">
+                    <img src="resources/foto11.jpeg" onclick="showImage(this)">
+                    <img src="resources/qfoto2.jpg" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <img src="" onclick="showImage(this)">
+                    <div class="modal" id="preview" onclick="cerrarModal()"></div>
+            </div>
+        </section>
+       
+    </div>
+</body>
+</html>
